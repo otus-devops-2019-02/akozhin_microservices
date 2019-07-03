@@ -35,4 +35,4 @@ deploy_dev_job:
     - echo 'Deploy'
   environment:
     name: dev
-    utl: http://dev.example.com/
+    url: http://dev.example.com/
