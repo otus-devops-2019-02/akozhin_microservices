@@ -75,3 +75,10 @@ brctl show <interface>
 * Опцией docker-compose -p, --project-name NAME. Пример docker-compose -p docker4 up -d
 
 https://docs.docker.com/compose/reference/envvars/
+
+# Monitoring 2
+
+Разделил приложения и мониторог на 2 compose файла
+Добавил мониторинг контейнеров с помощью cadvisor (тоже в контейнере)
+Добавил визуализацию метрик с использованием grafana - настроил собственные панели и импортировал панель для  docker c официального сайта
+Добавил алертинг через alertmanager интегрированный со slack
