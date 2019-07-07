@@ -1,3 +1,8 @@
+# Otus DevOps microservices repo
+
+
+https://hub.docker.com/u/akozhin
+
 # Docker - 1
 
 *Выполнено*
